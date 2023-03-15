@@ -1,0 +1,306 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    width: 91.5%;
+    margin: 24px auto 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+}
+
+.div-noti {
+    display: flex;
+    gap: 9px;
+}
+
+.p-noti {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C202B;
+}
+
+.numb-noti {
+    width: 32px;
+    height: 25px;
+    border-radius: 6px;
+    background-color: #0A327B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.p-mark {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5E6778;
+}
+
+.notification {
+    width: 343px; 
+    margin: 0px auto 10px;
+    background-color: #F7FAFD;
+    display: flex;
+    gap: 13px;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.avatar {
+    width: 39px;
+    height: 39px;
+    margin-left:  16px;
+}
+
+.p-message {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5E6778;
+}
+
+.span-name {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1C202B;
+    margin-right: 6px;
+}
+
+.span-event {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5E6778;
+    margin-left: 6px;
+}
+
+.div-pwithcircle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.orange-circle {
+    width: 8px;
+    height: 8px;
+    background-color: #F65552;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.p-minute {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5E6778;
+    margin-top: 3px;
+}
+
+.span-chess {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0A327B;
+    margin-left: 6px;
+}
+
+.notification-read {
+    width: 343px; 
+    margin: 0px auto 10px;
+    background-color: white;
+    display: flex;
+    gap: 13px;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.div-message {
+    margin-top: 12px;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5E6778;
+    border: 1px solid #DDE7EE;
+    border-radius: 5px;
+}
+
+.img-chess {
+    width: 39px;
+    height: 39px;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: #F2F2F2;
+    }
+    
+    .everything {
+        width: 730px;
+        margin: 63px auto 90px;
+        background-color: white;
+        padding-top: 33px;
+        border-radius: 15px;
+    }
+
+    header {
+        width: 668px;
+        max-width: 668px;
+        margin: 0px auto 24px;
+    }
+
+    .div-noti {
+        gap: 11px;
+        align-items: end;
+    }
+    
+    .p-noti {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .numb-noti {
+        width: 32px;
+        height: 25px;
+        border-radius: 6px;
+        background-color: #0A327B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-bottom: 3px;
+    }
+    
+    .p-mark {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5E6778;
+    }
+
+    .p-mark:hover {
+        color: #0A327B;
+        cursor: pointer;
+    }
+
+    .notification {
+        width: 670px; 
+        margin: 0px auto 8px;
+        gap: 19px;
+        padding-top: 18px;
+        padding-bottom: 17px;
+    }
+
+    .div-text {
+        display: flex;
+    }
+
+    .avatar {
+        width: 45px;
+        height: 45px;
+        margin-left:  20px;
+    }
+
+    .p-message {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5E6778;
+    }
+
+    .span-name {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1C202B;
+        margin-right: 7px;
+    }
+
+    .span-name:hover {
+        color: #0A327B;
+        cursor: pointer;
+    }
+
+    .span-event {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5E6778;
+        margin-left: 7px;
+    }
+
+    .span-event:hover {
+        color: #0A327B;
+        cursor: pointer;
+    }
+
+    .p-minute {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5E6778;
+        margin-top: 4px;
+    }
+
+    .span-chess {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #0A327B;
+        margin-left: 6px;
+    }
+
+    .span-chess:hover {
+        cursor: pointer;
+    }
+
+    .notification-read {
+        width: 670px; 
+        margin: 0px auto 8px;
+        background-color: white;
+        display: flex;
+        gap: 19px;
+        border-radius: 8px;
+        padding-top: 18px;
+        padding-bottom: 17px;
+    }
+
+    .div-message {
+        width: 526px;
+        margin-top: 12px;
+        padding: 17px 20px 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5E6778;
+        border: 1px solid #DDE7EE;
+        border-radius: 5px;
+    }
+
+    .div-message:hover {
+        background-color: #DDE7EE;
+        cursor: pointer;
+    }
+    
+    .img-chess {
+        width: 45px;
+        height: 45px;
+        margin-left: 160px;
+    }
+}
